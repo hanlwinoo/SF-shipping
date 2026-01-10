@@ -9,7 +9,7 @@ const database = firebase.database();
 const ADMIN_USERNAME = "hanlwinoo";
 const ADMIN_PASSWORD = "1500love";
 
-// Check current 
+// Check current page
 const currentPage = window.location.pathname.split("/").pop();
 
 // Double click tracking for logo
@@ -782,4 +782,4 @@ function setupAdminPage() {
             loadShipments();
         }
     }, 30000);
-                                                       }
+}
