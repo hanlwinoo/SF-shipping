@@ -1,13 +1,5 @@
 // Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyD123abc456def789ghi",
-    authDomain: "logstic-system.firebaseapp.com",
-    databaseURL: "https://logstic-system-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "logstic-system",
-    storageBucket: "logstic-system.appspot.com",
-    messagingSenderId: "929186977018",
-    appId: "1:929186977018:web:342a2cf9454f03c8e0a543"
-};
+const firebaseConfig = {  apiKey: "AIzaSyCR6pogNfCUJSradGjPYIRc1_LJuDc2GoM",  authDomain: "logstic-system-5fcac.firebaseapp.com",  databaseURL: "https://logstic-system-5fcac-default-rtdb.asia-southeast1.firebasedatabase.app",  projectId: "logstic-system-5fcac",  storageBucket: "logstic-system-5fcac.firebasestorage.app",  messagingSenderId: "1048996922654",  appId: "1:1048996922654:web:9a2cc5abf5bfc43e68b50f"};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -17,7 +9,7 @@ const database = firebase.database();
 const ADMIN_USERNAME = "hanlwinoo";
 const ADMIN_PASSWORD = "1500love";
 
-// Check current page
+// Check current 
 const currentPage = window.location.pathname.split("/").pop();
 
 // Double click tracking for logo
